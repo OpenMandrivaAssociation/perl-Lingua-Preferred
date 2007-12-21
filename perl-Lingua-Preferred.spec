@@ -10,6 +10,7 @@ Release:	%{release}
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}
 Source:		ftp://ftp.cpan.org/pub/CPAN/modules/by-module/Lingua/%{module}-%{version}.tar.bz2
+BuildRoot:	%{_tmppath}/%{name}-root
 BuildArch:	noarch
 BuildRequires:	perl(Log::TraceMessages)
 BuildRequires:	perl-devel
