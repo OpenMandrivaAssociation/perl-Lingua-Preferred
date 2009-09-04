@@ -1,6 +1,6 @@
 %define module	Lingua-Preferred
 %define version	0.2.4
-%define release %mkrel 7
+%define release %mkrel 8
 
 Summary:	Perl extension to choose a language
 License:	GPL/Artistic
