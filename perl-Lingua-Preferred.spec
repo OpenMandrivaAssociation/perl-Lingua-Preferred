@@ -49,3 +49,47 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/*/*
 
 
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.2.4-8mdv2010.0
++ Revision: 430480
+- rebuild
+
+* Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 0.2.4-7mdv2009.0
++ Revision: 257563
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 0.2.4-6mdv2009.0
++ Revision: 245623
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 0.2.4-4mdv2008.1
++ Revision: 136280
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Wed Jan 03 2007 Stefan van der Eijk <stefan@mandriva.org> 0.2.4-4mdv2007.0
++ Revision: 103812
+- Import perl-Lingua-Preferred
+
+* Fri May 12 2006 Nicolas Lécureuil <neoclust@mandriva.org> 0.2.4-4mdk
+- Fix BuildRequires
+- Fix Build 
+- Fix Source URL
+- Fix URL
+
+* Fri Apr 22 2005 Stefan van der Eijk <stefan@eijk.nu> 0.2.4-3mdk
+- mkrel
+- reupload (stuff got lost)
+
+* Mon Feb 28 2005 Stefan van der Eijk <stefan@eijk.nu> 0.2.4-2mdk
+- B'day rebuild
+- use AutoReqProv
+
+* Sun Jan 11 2004 Stefan van der Eijk <stefan@eijk.nu> 0.2.4-1mdk
+- 0.2.4
+
